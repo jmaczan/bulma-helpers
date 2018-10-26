@@ -1,0 +1,11 @@
+$values: ('flex-start' 'flex-end' 'center' 'baseline' 'stretch')
+$what-to-align: ('self' 'items')
+
+@each $item in $what-to-align
+  @if $item == 'self'
+    .align-self-auto
+      align-self: auto
+
+  @each $value in $values
+    .align-self-#{$value}
+      align-#{$item}: $value

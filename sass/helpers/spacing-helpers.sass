@@ -1,0 +1,23 @@
+// spacing helpers settings
+$range-start: 5
+$range-end: 150
+$interval: 5
+$sides: (top, bottom, left, right)
+
+$current: $range-start
+@while $current < $range-end
+  .has-margin-#{$current}
+    margin: #{$current}px !important
+
+  .has-padding-#{$current}
+    padding: #{$current}px !important
+
+  @each $side in $sides
+    .has-margin-#{$side}-#{$current}
+      margin-#{$side}: #{$current}px !important
+    
+    .has-padding-#{$side}-#{$current}
+      padding-#{$side}: #{$current}px !important
+  
+  $current: $current + $interval
+ 

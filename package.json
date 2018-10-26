@@ -1,0 +1,54 @@
+{
+  "name": "bulma-helpers",
+  "version": "0.0.1",
+  "description": "Library with missing Functional CSS selectors for Bulma framework.",
+  "main": "bulma-helpers.sass",
+  "unpkg": "css/bulma-helpers.css",
+  "style": "bulma-helpers/css/bulma-helpers.min.css",
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma-helpers.css css/bulma-helpers.css",
+    "build-cleancss": "cleancss -o css/bulma-helpers.min.css css/bulma-helpers.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true bulma-helpers.sass css/bulma-helpers.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
+  },
+  "files": [
+    "css",
+    "sass",
+    "bulma-helpers.sass",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaczan/bulma-helpers.git"
+  },
+  "keywords": [
+    "bulma",
+    "bulma-helpers",
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework",
+    "functional",
+    "helpers"
+  ],
+  "author": "Jędrzej Maczan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmaczan/bulma-helpers/issues"
+  },
+  "homepage": "https://github.com/jmaczan/bulma-helpers#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "clean-css-cli": "^4.2.1",
+    "node-sass": "^4.9.4",
+    "postcss-cli": "^6.0.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}

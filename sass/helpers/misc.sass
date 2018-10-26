@@ -1,0 +1,15 @@
+.is-borderless
+  border: 0px !important
+
+$blur-light: 15px
+$blur-medium: 40px
+$blur-hard: 75px
+
+.is-blurred
+  filter: blur($blur-light)
+
+  &-medium
+    filter: blur($blur-medium)
+
+  &-hard
+    filter: blur($blur-hard)

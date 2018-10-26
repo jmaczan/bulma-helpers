@@ -1,0 +1,28 @@
+$modifiers: ('height', 'width')
+
+@each $modifier in $modifiers
+  .is-full-#{$modifier}
+    #{$modifier}: 100% !important
+
+  .has-page-#{$modifier}
+    @if ($modifier == 'height')
+      #{$modifier}: 100vh !important
+    @else if $modifier == 'width'
+      #{$modifier}: 100vw !important
+
+
+// sizing helpers settings
+$range-start: 50
+$range-end: 400
+$interval: 50
+$sides: (top, bottom, left, right)
+
+$current: $range-start
+@while $current < $range-end
+  .has-max-width-#{$current} 
+    max-width: #{$current}px !important
+  
+  .has-min-width-#{$current} 
+    min-width: #{$current}px !important
+
+  $current: $current + $interval
