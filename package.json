@@ -48,7 +48,5 @@
     "postcss-cli": "^6.0.1",
     "rimraf": "^2.6.2"
   },
-  "dependencies": {
-    "bulma": "^0.7.2"
-  }
+  "dependencies": {}
 }

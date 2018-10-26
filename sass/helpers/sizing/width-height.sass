@@ -1,0 +1,12 @@
+// sizing helpers settings
+$range-start: 50
+$range-end: 400
+$interval: 50
+
+$current: $range-start
+@while $current < $range-end
+  @each $dimension in 'width' 'height'
+    .has-#{$dimension}-#{$current} 
+      #{$dimension}: #{$current}px !important
+
+  $current: $current + $interval

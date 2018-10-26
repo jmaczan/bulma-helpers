@@ -20,4 +20,10 @@ $current: $range-start
       padding-#{$side}: #{$current}px !important
   
   $current: $current + $interval
- 
+
+@each $side in $sides
+  .is-#{$side}-marginless
+    margin-#{$side}: 0 !important
+  
+  .is-#{$side}-paddingless
+    padding-#{$side}: 0 !important

@@ -1,0 +1,7 @@
+.is-borderless
+  border: 0px !important
+
+$sides: (top, bottom, left, right)
+@each $side in $sides
+  .is-#{$side}-borderless
+    border-#{$side}: 0px !important

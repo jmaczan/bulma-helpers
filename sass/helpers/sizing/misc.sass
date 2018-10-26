@@ -1,0 +1,11 @@
+$modifiers: ('height', 'width')
+
+@each $modifier in $modifiers
+  .is-full-#{$modifier}
+    #{$modifier}: 100% !important
+
+  .has-page-#{$modifier}
+    @if ($modifier == 'height')
+      #{$modifier}: 100vh !important
+    @else if $modifier == 'width'
+      #{$modifier}: 100vw !important

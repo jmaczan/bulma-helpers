@@ -1,14 +1,12 @@
 $values: ('start' 'end' 'flex-start' 'flex-end' 'center' 'normal' 'space-between' 'space-around' 'space-evenly' 'stretch' 'baseline')
 
-@each $orientation in 'row' 'column'
-  .flex-#{$orientation}
-    @each $modifier in 'align' 'justify'
-      @if $modifier == 'justify'
-        &.justify-left, .justify-left
-          justify-content: left
-        &.justify-right, .justify-right
-          justify-content: right
+@each $modifier in 'align' 'justify'
+  @if $modifier == 'justify'
+    .justify-left
+      justify-content: left
+    .justify-right
+      justify-content: right
 
-      @each $value in $values
-        &.#{$modifier}-#{$value}, .#{$modifier}-#{$value}
-          #{$modifier}-content: #{$value}
+  @each $value in $values
+    .#{$modifier}-#{$value}
+      #{$modifier}-content: #{$value}

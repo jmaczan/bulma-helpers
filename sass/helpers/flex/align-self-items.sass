@@ -7,5 +7,5 @@ $what-to-align: ('self' 'items')
       align-self: auto
 
   @each $value in $values
-    .align-self-#{$value}
-      align-#{$item}: $value
+    .align-#{$item}-#{$value}
+      align-#{$item}: #{$value}
