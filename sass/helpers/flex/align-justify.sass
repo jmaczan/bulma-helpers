@@ -3,10 +3,10 @@ $values: ('start' 'end' 'flex-start' 'flex-end' 'center' 'normal' 'space-between
 @each $modifier in 'align' 'justify'
   @if $modifier == 'justify'
     .justify-left
-      justify-content: left
+      justify-content: left !important
     .justify-right
-      justify-content: right
+      justify-content: right !important
 
   @each $value in $values
     .#{$modifier}-#{$value}
-      #{$modifier}-content: #{$value}
+      #{$modifier}-content: #{$value} !important

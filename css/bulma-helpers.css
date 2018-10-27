@@ -18,33 +18,213 @@
   border-right: 0px !important;
 }
 
+.has-border-width-1 {
+  border-width: 1px !important;
+}
+
+.has-border-top-width-1 {
+  border-top-width: 1px !important;
+}
+
+.has-border-bottom-width-1 {
+  border-bottom-width: 1px !important;
+}
+
+.has-border-left-width-1 {
+  border-left-width: 1px !important;
+}
+
+.has-border-right-width-1 {
+  border-right-width: 1px !important;
+}
+
+.has-border-width-2 {
+  border-width: 2px !important;
+}
+
+.has-border-top-width-2 {
+  border-top-width: 2px !important;
+}
+
+.has-border-bottom-width-2 {
+  border-bottom-width: 2px !important;
+}
+
+.has-border-left-width-2 {
+  border-left-width: 2px !important;
+}
+
+.has-border-right-width-2 {
+  border-right-width: 2px !important;
+}
+
+.has-border-width-3 {
+  border-width: 3px !important;
+}
+
+.has-border-top-width-3 {
+  border-top-width: 3px !important;
+}
+
+.has-border-bottom-width-3 {
+  border-bottom-width: 3px !important;
+}
+
+.has-border-left-width-3 {
+  border-left-width: 3px !important;
+}
+
+.has-border-right-width-3 {
+  border-right-width: 3px !important;
+}
+
+.has-border-width-4 {
+  border-width: 4px !important;
+}
+
+.has-border-top-width-4 {
+  border-top-width: 4px !important;
+}
+
+.has-border-bottom-width-4 {
+  border-bottom-width: 4px !important;
+}
+
+.has-border-left-width-4 {
+  border-left-width: 4px !important;
+}
+
+.has-border-right-width-4 {
+  border-right-width: 4px !important;
+}
+
+.has-border-width-5 {
+  border-width: 5px !important;
+}
+
+.has-border-top-width-5 {
+  border-top-width: 5px !important;
+}
+
+.has-border-bottom-width-5 {
+  border-bottom-width: 5px !important;
+}
+
+.has-border-left-width-5 {
+  border-left-width: 5px !important;
+}
+
+.has-border-right-width-5 {
+  border-right-width: 5px !important;
+}
+
+.has-border-width-6 {
+  border-width: 6px !important;
+}
+
+.has-border-top-width-6 {
+  border-top-width: 6px !important;
+}
+
+.has-border-bottom-width-6 {
+  border-bottom-width: 6px !important;
+}
+
+.has-border-left-width-6 {
+  border-left-width: 6px !important;
+}
+
+.has-border-right-width-6 {
+  border-right-width: 6px !important;
+}
+
+.has-border-width-7 {
+  border-width: 7px !important;
+}
+
+.has-border-top-width-7 {
+  border-top-width: 7px !important;
+}
+
+.has-border-bottom-width-7 {
+  border-bottom-width: 7px !important;
+}
+
+.has-border-left-width-7 {
+  border-left-width: 7px !important;
+}
+
+.has-border-right-width-7 {
+  border-right-width: 7px !important;
+}
+
+.has-border-width-8 {
+  border-width: 8px !important;
+}
+
+.has-border-top-width-8 {
+  border-top-width: 8px !important;
+}
+
+.has-border-bottom-width-8 {
+  border-bottom-width: 8px !important;
+}
+
+.has-border-left-width-8 {
+  border-left-width: 8px !important;
+}
+
+.has-border-right-width-8 {
+  border-right-width: 8px !important;
+}
+
+.has-border-width-9 {
+  border-width: 9px !important;
+}
+
+.has-border-top-width-9 {
+  border-top-width: 9px !important;
+}
+
+.has-border-bottom-width-9 {
+  border-bottom-width: 9px !important;
+}
+
+.has-border-left-width-9 {
+  border-left-width: 9px !important;
+}
+
+.has-border-right-width-9 {
+  border-right-width: 9px !important;
+}
+
 .has-cursor-pointer {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .has-cursor-grab {
-  cursor: -webkit-grab;
-  cursor: grab;
+  cursor: -webkit-grab !important;
+  cursor: grab !important;
 }
 
 .has-cursor-help {
-  cursor: help;
+  cursor: help !important;
 }
 
 .has-cursor-wait {
-  cursor: wait;
+  cursor: wait !important;
 }
 
 .has-cursor-crosshair {
-  cursor: crosshair;
+  cursor: crosshair !important;
 }
 
 .has-cursor-not-allowed {
-  cursor: not-allowed;
+  cursor: not-allowed !important;
 }
 
 .has-cursor-zoom-in {
-  cursor: zoom-in;
+  cursor: zoom-in !important;
 }
 
 .flex .flex-row, .flex .flex-column {
@@ -52,178 +232,290 @@
 }
 
 .flex-row {
-  flex-direction: row;
+  flex-direction: row !important;
 }
 
 .flex-column {
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .nowrap {
-  flex-wrap: nowrap;
+  flex-wrap: nowrap !important;
 }
 
 .wrap {
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 
 .wrap-reverse {
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse !important;
 }
 
 .align-start {
-  align-content: start;
+  align-content: start !important;
 }
 
 .align-end {
-  align-content: end;
+  align-content: end !important;
 }
 
 .align-flex-start {
-  align-content: flex-start;
+  align-content: flex-start !important;
 }
 
 .align-flex-end {
-  align-content: flex-end;
+  align-content: flex-end !important;
 }
 
 .align-center {
-  align-content: center;
+  align-content: center !important;
 }
 
 .align-normal {
-  align-content: normal;
+  align-content: normal !important;
 }
 
 .align-space-between {
-  align-content: space-between;
+  align-content: space-between !important;
 }
 
 .align-space-around {
-  align-content: space-around;
+  align-content: space-around !important;
 }
 
 .align-space-evenly {
-  align-content: space-evenly;
+  align-content: space-evenly !important;
 }
 
 .align-stretch {
-  align-content: stretch;
+  align-content: stretch !important;
 }
 
 .align-baseline {
-  align-content: baseline;
+  align-content: baseline !important;
 }
 
 .justify-left {
-  justify-content: left;
+  justify-content: left !important;
 }
 
 .justify-right {
-  justify-content: right;
+  justify-content: right !important;
 }
 
 .justify-start {
-  justify-content: start;
+  justify-content: start !important;
 }
 
 .justify-end {
-  justify-content: end;
+  justify-content: end !important;
 }
 
 .justify-flex-start {
-  justify-content: flex-start;
+  justify-content: flex-start !important;
 }
 
 .justify-flex-end {
-  justify-content: flex-end;
+  justify-content: flex-end !important;
 }
 
 .justify-center {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .justify-normal {
-  justify-content: normal;
+  justify-content: normal !important;
 }
 
 .justify-space-between {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 .justify-space-around {
-  justify-content: space-around;
+  justify-content: space-around !important;
 }
 
 .justify-space-evenly {
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }
 
 .justify-stretch {
-  justify-content: stretch;
+  justify-content: stretch !important;
 }
 
 .justify-baseline {
-  justify-content: baseline;
+  justify-content: baseline !important;
 }
 
 .align-self-auto {
-  align-self: auto;
+  align-self: auto !important;
 }
 
 .align-self-flex-start {
-  align-self: flex-start;
+  align-self: flex-start !important;
 }
 
 .align-self-flex-end {
-  align-self: flex-end;
+  align-self: flex-end !important;
 }
 
 .align-self-center {
-  align-self: center;
+  align-self: center !important;
 }
 
 .align-self-baseline {
-  align-self: baseline;
+  align-self: baseline !important;
 }
 
 .align-self-stretch {
-  align-self: stretch;
+  align-self: stretch !important;
 }
 
 .align-items-flex-start {
-  align-items: flex-start;
+  align-items: flex-start !important;
 }
 
 .align-items-flex-end {
-  align-items: flex-end;
+  align-items: flex-end !important;
 }
 
 .align-items-center {
-  align-items: center;
+  align-items: center !important;
 }
 
 .align-items-baseline {
-  align-items: baseline;
+  align-items: baseline !important;
 }
 
 .align-items-stretch {
-  align-items: stretch;
+  align-items: stretch !important;
 }
 
 .is-blurred {
-  -webkit-filter: blur(15px);
-          filter: blur(15px);
+  -webkit-filter: blur(15px) !important;
+          filter: blur(15px) !important;
 }
 
 .is-blurred-medium {
-  -webkit-filter: blur(40px);
-          filter: blur(40px);
+  -webkit-filter: blur(40px) !important;
+          filter: blur(40px) !important;
 }
 
 .is-blurred-hard {
-  -webkit-filter: blur(75px);
-          filter: blur(75px);
+  -webkit-filter: blur(75px) !important;
+          filter: blur(75px) !important;
+}
+
+.has-max-width-50 {
+  max-width: 50px !important;
+}
+
+.has-min-width-50 {
+  min-width: 50px !important;
+}
+
+.has-max-height-50 {
+  max-height: 50px !important;
+}
+
+.has-min-height-50 {
+  min-height: 50px !important;
+}
+
+.has-max-width-100 {
+  max-width: 100px !important;
+}
+
+.has-min-width-100 {
+  min-width: 100px !important;
+}
+
+.has-max-height-100 {
+  max-height: 100px !important;
+}
+
+.has-min-height-100 {
+  min-height: 100px !important;
+}
+
+.has-max-width-150 {
+  max-width: 150px !important;
+}
+
+.has-min-width-150 {
+  min-width: 150px !important;
+}
+
+.has-max-height-150 {
+  max-height: 150px !important;
+}
+
+.has-min-height-150 {
+  min-height: 150px !important;
+}
+
+.has-max-width-200 {
+  max-width: 200px !important;
+}
+
+.has-min-width-200 {
+  min-width: 200px !important;
+}
+
+.has-max-height-200 {
+  max-height: 200px !important;
+}
+
+.has-min-height-200 {
+  min-height: 200px !important;
+}
+
+.has-max-width-250 {
+  max-width: 250px !important;
+}
+
+.has-min-width-250 {
+  min-width: 250px !important;
+}
+
+.has-max-height-250 {
+  max-height: 250px !important;
+}
+
+.has-min-height-250 {
+  min-height: 250px !important;
+}
+
+.has-max-width-300 {
+  max-width: 300px !important;
+}
+
+.has-min-width-300 {
+  min-width: 300px !important;
+}
+
+.has-max-height-300 {
+  max-height: 300px !important;
+}
+
+.has-min-height-300 {
+  min-height: 300px !important;
+}
+
+.has-max-width-350 {
+  max-width: 350px !important;
+}
+
+.has-min-width-350 {
+  min-width: 350px !important;
+}
+
+.has-max-height-350 {
+  max-height: 350px !important;
+}
+
+.has-min-height-350 {
+  min-height: 350px !important;
 }
 
 .has-width-50 {
@@ -290,12 +582,44 @@
   height: 100vh !important;
 }
 
+.is-half-height {
+  height: 50% !important;
+}
+
+.has-half-page-height {
+  height: 50vh !important;
+}
+
+.is-quarter-height {
+  height: 25% !important;
+}
+
+.has-quarter-page-height {
+  height: 25vh !important;
+}
+
 .is-full-width {
   width: 100% !important;
 }
 
 .has-page-width {
   width: 100vw !important;
+}
+
+.is-half-width {
+  width: 50% !important;
+}
+
+.has-half-page-width {
+  width: 50vw !important;
+}
+
+.is-quarter-width {
+  width: 25% !important;
+}
+
+.has-quarter-page-width {
+  width: 25vw !important;
 }
 
 .has-margin-5 {
