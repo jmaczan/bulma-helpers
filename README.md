@@ -1,5 +1,5 @@
 # bulma-helpers
-Library with missing **Functional / Atomic CSS selectors for Bulma framework**, which doesn't require Bulma framework to work! :heart:
+Library with missing **Functional / Atomic CSS classes for Bulma framework**, which doesn't require Bulma framework to work! :heart:
 
 [![npm](https://img.shields.io/npm/v/bulma-helpers.svg)][npm-link]
 
@@ -16,7 +16,7 @@ Library with missing **Functional / Atomic CSS selectors for Bulma framework**, 
   * [Browser Support](#browser-support)
   * [Customization](#customization)
     + [Choosing modules](#choosing-modules)
-    + [Customizing selectors](#customizing-selectors)
+    + [Customizing classes](#customizing-classes)
   * [Documentation](#documentation)
     + [Spacing](#spacing)
       - [Margin](#margin)
@@ -91,7 +91,7 @@ import 'bulma-helpers/css/bulma-helpers.min.css'
 
 ## Compatibility with Bulma
 
-Bulma-helpers library complies with Bulma convention of naming classes. Most of selectors are of the `is-*` and `has-*` type. Example:
+Bulma-helpers library complies with Bulma convention of naming classes. Most of classes are of the `is-*` and `has-*` type. Example:
 ```scss
 .is-borderless
 ```
@@ -100,7 +100,7 @@ or
 .has-padding-top-5
 ```
 
-One exception are pure Flexbox selectors, which names just reflect modifiers. Example:
+One exception are pure Flexbox classes, which names just reflect modifiers. Example:
 ```scss
 .flex-row
 ```
@@ -140,9 +140,9 @@ Internet Explorer (10+) is only partially supported.
 By default, all modules are included in result build. Even so, you can decide on your own which modules do you want to use in your project.
 To achieve this, you have to remove unwanted sass modules imports from main `_all.sass` files in helpers directory or remove single file imports from `_all.sass` in corresponding modules directories.
 
-### Customizing selectors
+### Customizing classes
 
-For all generated selectors (such as `has-margin-bottom-*`, where `*` is value from given range) there is a simple way to change range and interval of generated selectors. You can change the following variables in corresponding sass files.
+For all generated classes (such as `has-margin-bottom-*`, where `*` is value from given range) there is a simple way to change range and interval of generated classes. You can change the following variables in corresponding sass files.
 
 ```scss
 $range-start: 1
@@ -152,7 +152,7 @@ $interval: 1
 
 ## Documentation
 
-All values are represented by pixels, so e.g. `has-max-width-50` selector means that this element's maximal width is 50px.
+All values are represented by pixels, so e.g. `has-max-width-50` class means that this element's maximal width is 50px.
 
 ### Spacing
 
@@ -288,7 +288,7 @@ full (100vw/vh), half (50vw/vh), quarter (25vw/vh)
 
 ### Flex
 
-**Names of selectors reflect modifiers**. There are modifiers for: 
+**Names of classes reflect modifiers**. There are modifiers for: 
 1. row
 2. column
 3. align-content
