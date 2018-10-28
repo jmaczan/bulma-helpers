@@ -29,7 +29,7 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
         * [Padding for one side](#padding-for-one-side)
         * [All available sides](#all-available-sides-1)
         * [Default available spacing values](#default-available-spacing-values-1)
-    + [Width / eight](#width---eight)
+    + [Width / Height](#width---height)
         * [Width](#width)
         * [Height](#height)
         * [Default available sizing values](#default-available-sizing-values)
@@ -355,7 +355,7 @@ border-top-width: 3px !important
 
 ##### All available sides
 1. top
-2. rightar
+2. right
 3. bottom
 4. left
 
