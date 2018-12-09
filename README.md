@@ -135,20 +135,56 @@ Internet Explorer (10+) is only partially supported.
 
 ## Customization
 
+All modules are toggled on and all variables have some values by default. You can customize these values by assigning your values to variables, defined in the library. **All available variables you can find in corresponding files in `variables` directory.**
+
+### Customizing ranges of generated classes
+
+For all generated classes (such as `has-margin-bottom-*`, where `*` is value from given range) there is a simple way to change range and interval of generated classes. You can change the following variables in corresponding sass files. All variables follow the same pattern, shown below.
+
+```scss
+$sizing-range-start: 50 !default
+$sizing-range-end: 400 !default
+$sizing-interval: 50 !default
+```
+
+We've got `name of customized value`, such as `sizing` or `spacing`, then variable's meaning, such as `range-start`, `range-end` and `interval`.
+
+For media queries, the rule is the same. The only difference is that rest of variable's name is preceded by `mq`.
+
+```scss
+$mq-sizing-range-start: 50 !default
+$mq-sizing-range-end: 400 !default
+$mq-sizing-interval: 50 !default
+```
+
+### Customizing media queries
+
+You can decide whether you want to include media queries in your project or not. In `variables/media-queries.sass` file you can find variables which allows you to customize your Bulma-helpers. All of defined variables are built on top of the following pattern:
+
+```scss
+$enable-media-queries: true !default
+```
+
+This variables enables/disables all media queries in the project.
+
+For choosing certain modules, such as max/min width/height sizing media queries, you can assign a value to variables such as:
+
+```scss
+$enable-sizing-max-min-width-height-media-queries: true !default
+```
+
+### Customizing breakpoints
+
+Breakpoints are same as default breapoints in Bulma. If you want to change them, then just override the same breakpoint variables as in Bulma, for example:
+
+```scss
+$tablet: 800px
+```
+
 ### Choosing modules
 
 By default, all modules are included in result build. Even so, you can decide on your own which modules do you want to use in your project.
 To achieve this, you have to remove unwanted sass modules imports from main `_all.sass` files in helpers directory or remove single file imports from `_all.sass` in corresponding modules directories.
-
-### Customizing classes
-
-For all generated classes (such as `has-margin-bottom-*`, where `*` is value from given range) there is a simple way to change range and interval of generated classes. You can change the following variables in corresponding sass files.
-
-```scss
-$range-start: 1
-$range-end: 10
-$interval: 1
-```
 
 ## Documentation
 
@@ -208,7 +244,7 @@ In the same way as above for margin.
 ##### Default available spacing values
 (5, 10, 15, ..., 150)
 
-### Width / eight
+### Sizing
 
 ##### Width
 ```scss
@@ -281,6 +317,122 @@ full (100%), half (50%), quarter (25%)
 gives
 ```scss
 width: 100vw !important
+```
+
+##### Default available sizing values
+full (100vw/vh), half (50vw/vh), quarter (25vw/vh)
+
+### Media queries
+
+By default, media queries for sizing and spacing are toggled on. You can use media queries in exactly the same as in Bulma framework. Just add postfix to classname with breakpoints name, such as `-mobile` or `-widescreen-only`.
+
+#### Default breakpoints
+
+There are few defined breakpoints - mobile, tablet, tablet-only, touch, desktop, desktop-only, widescreen, widescreen-only, fullhd. Everything as in Bulma! You can read more [here](https://bulma.io/documentation/overview/responsiveness/).
+
+```scss
+$gap: 64px !default
+$tablet: 769px !default
+$desktop: 960px + (2 * $gap) !default
+$widescreen: 1152px + (2 * $gap) !default
+$widescreen-enabled: true !default
+$fullhd: 1344px + (2 * $gap) !default
+$fullhd-enabled: true !default
+```
+
+#### Margin
+
+##### Margin
+```scss
+.has-margin-5-mobile
+```
+
+##### Margin for one side
+```scss
+.has-margin-top-5-tablet
+```
+
+##### All available sides
+1. top
+2. right
+3. bottom
+4. left
+
+##### Default available spacing values
+(5, 10, 15, ..., 150)
+
+#### Padding
+
+In the same way as above for margin.
+
+##### Padding
+```scss
+.has-padding-5-fullhd
+```
+
+##### Padding for one side
+```scss
+.has-padding-top-5-widescreen
+```
+
+##### All available sides
+1. top
+2. right
+3. bottom
+4. left
+
+##### Default available spacing values
+(5, 10, 15, ..., 150)
+
+### Sizing
+
+##### Width
+```scss
+.has-width-50-touch
+```
+
+##### Height
+```scss
+.has-height-50-mobile
+```
+
+##### Default available sizing values
+(50, 100, 150, ..., 400)
+
+#### Max / min width / height
+
+##### Max width
+```scss
+.has-max-width-50-desktop
+```
+
+##### Min height
+```scss
+.has-min-height-50-mobile
+```
+
+##### Default available sizing values
+(50, 100, 150, ..., 400)
+
+#### Fraction width / height
+
+##### Full width
+```scss
+.is-full-width-tablet
+```
+
+```scss
+.is-half-height-widescreen
+```
+
+##### Default available sizing values
+full (100%), half (50%), quarter (25%)
+
+#### Full page width / height
+
+##### Full page width
+```scss
+.has-page-width-mobile
 ```
 
 ##### Default available sizing values

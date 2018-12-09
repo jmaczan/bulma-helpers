@@ -1,6 +1,6 @@
 {
   "name": "bulma-helpers",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Library with missing Functional / Atomic CSS classes for Bulma framework.",
   "main": "bulma-helpers.sass",
   "unpkg": "css/bulma-helpers.css",
