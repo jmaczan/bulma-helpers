@@ -1,8 +1,8 @@
 @if $enable-media-queries
   @if $enable-spacing-media-queries
-    $range-start: 5
-    $range-end: 150
-    $interval: 5
+    $range-start: $mq-spacing-range-start
+    $range-end: $mq-spacing-range-end
+    $interval: $mq-spacing-interval
     $sides: (top, bottom, left, right)
 
     $current: $range-start

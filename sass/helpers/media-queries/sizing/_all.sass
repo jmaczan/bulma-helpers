@@ -1,9 +1,9 @@
 @if $enable-media-queries
   @if $enable-sizing-media-queries
     @if $enable-sizing-width-height-media-queries
-      $range-start: 50
-      $range-end: 400
-      $interval: 50
+      $range-start: $mq-sizing-range-start
+      $range-end: $mq-sizing-range-end
+      $interval: $mq-sizing-interval
 
       $current: $range-start
       @while $current < $range-end
@@ -39,9 +39,9 @@
         $current: $current + $interval
     
     @if $enable-sizing-max-min-width-height-media-queries
-      $range-start: 50
-      $range-end: 400
-      $interval: 50
+      $range-start: $mq-sizing-max-min-width-height-range-start
+      $range-end: $mq-sizing-max-min-width-height-range-end
+      $interval: $mq-sizing-max-min-width-height-interval
 
       $current: $range-start
       @while $current < $range-end
