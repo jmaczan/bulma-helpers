@@ -1813,4 +1813,2654 @@
 .is-right-paddingless {
   padding-right: 0 !important;
 }
+
+@media screen and (max-width: 768px) {
+  .has-width-50-mobile {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-50-tablet {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-50-tablet-only {
+    width: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-50-touch {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-50-desktop {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-50-desktop-only {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-50-widescreen {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-50-widescreen-only {
+    width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-50-fullhd {
+    width: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-50-mobile {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-50-tablet {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-50-tablet-only {
+    height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-50-touch {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-50-desktop {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-50-desktop-only {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-50-widescreen {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-50-widescreen-only {
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-50-fullhd {
+    height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-width-100-mobile {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-100-tablet {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-100-tablet-only {
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-100-touch {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-100-desktop {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-100-desktop-only {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-100-widescreen {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-100-widescreen-only {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-100-fullhd {
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-100-mobile {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-100-tablet {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-100-tablet-only {
+    height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-100-touch {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-100-desktop {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-100-desktop-only {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-100-widescreen {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-100-widescreen-only {
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-100-fullhd {
+    height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-width-150-mobile {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-150-tablet {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-150-tablet-only {
+    width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-150-touch {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-150-desktop {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-150-desktop-only {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-150-widescreen {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-150-widescreen-only {
+    width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-150-fullhd {
+    width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-150-mobile {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-150-tablet {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-150-tablet-only {
+    height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-150-touch {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-150-desktop {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-150-desktop-only {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-150-widescreen {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-150-widescreen-only {
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-150-fullhd {
+    height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-width-200-mobile {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-200-tablet {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-200-tablet-only {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-200-touch {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-200-desktop {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-200-desktop-only {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-200-widescreen {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-200-widescreen-only {
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-200-fullhd {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-200-mobile {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-200-tablet {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-200-tablet-only {
+    height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-200-touch {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-200-desktop {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-200-desktop-only {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-200-widescreen {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-200-widescreen-only {
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-200-fullhd {
+    height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-width-250-mobile {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-250-tablet {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-250-tablet-only {
+    width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-250-touch {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-250-desktop {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-250-desktop-only {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-250-widescreen {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-250-widescreen-only {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-250-fullhd {
+    width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-250-mobile {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-250-tablet {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-250-tablet-only {
+    height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-250-touch {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-250-desktop {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-250-desktop-only {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-250-widescreen {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-250-widescreen-only {
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-250-fullhd {
+    height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-width-300-mobile {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-300-tablet {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-300-tablet-only {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-300-touch {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-300-desktop {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-300-desktop-only {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-300-widescreen {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-300-widescreen-only {
+    width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-300-fullhd {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-300-mobile {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-300-tablet {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-300-tablet-only {
+    height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-300-touch {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-300-desktop {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-300-desktop-only {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-300-widescreen {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-300-widescreen-only {
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-300-fullhd {
+    height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-width-350-mobile {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-width-350-tablet {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-width-350-tablet-only {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-width-350-touch {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-width-350-desktop {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-width-350-desktop-only {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-width-350-widescreen {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-width-350-widescreen-only {
+    width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-width-350-fullhd {
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-height-350-mobile {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-height-350-tablet {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-height-350-tablet-only {
+    height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-height-350-touch {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-height-350-desktop {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-height-350-desktop-only {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-height-350-widescreen {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-height-350-widescreen-only {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-height-350-fullhd {
+    height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-50-mobile {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-50-tablet {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-50-tablet-only {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-50-touch {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-50-desktop {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-50-desktop-only {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-50-widescreen {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-50-widescreen-only {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-50-fullhd {
+    max-width: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-50-mobile {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-50-tablet {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-50-tablet-only {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-50-touch {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-50-desktop {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-50-desktop-only {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-50-widescreen {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-50-widescreen-only {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-50-fullhd {
+    min-width: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-50-mobile {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-50-tablet {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-50-tablet-only {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-50-touch {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-50-desktop {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-50-desktop-only {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-50-widescreen {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-50-widescreen-only {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-50-fullhd {
+    max-height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-50-mobile {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-50-tablet {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-50-tablet-only {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-50-touch {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-50-desktop {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-50-desktop-only {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-50-widescreen {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-50-widescreen-only {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-50-fullhd {
+    min-height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-100-mobile {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-100-tablet {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-100-tablet-only {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-100-touch {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-100-desktop {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-100-desktop-only {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-100-widescreen {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-100-widescreen-only {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-100-fullhd {
+    max-width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-100-mobile {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-100-tablet {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-100-tablet-only {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-100-touch {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-100-desktop {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-100-desktop-only {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-100-widescreen {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-100-widescreen-only {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-100-fullhd {
+    min-width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-100-mobile {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-100-tablet {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-100-tablet-only {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-100-touch {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-100-desktop {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-100-desktop-only {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-100-widescreen {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-100-widescreen-only {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-100-fullhd {
+    max-height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-100-mobile {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-100-tablet {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-100-tablet-only {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-100-touch {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-100-desktop {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-100-desktop-only {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-100-widescreen {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-100-widescreen-only {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-100-fullhd {
+    min-height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-150-mobile {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-150-tablet {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-150-tablet-only {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-150-touch {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-150-desktop {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-150-desktop-only {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-150-widescreen {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-150-widescreen-only {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-150-fullhd {
+    max-width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-150-mobile {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-150-tablet {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-150-tablet-only {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-150-touch {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-150-desktop {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-150-desktop-only {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-150-widescreen {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-150-widescreen-only {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-150-fullhd {
+    min-width: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-150-mobile {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-150-tablet {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-150-tablet-only {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-150-touch {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-150-desktop {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-150-desktop-only {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-150-widescreen {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-150-widescreen-only {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-150-fullhd {
+    max-height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-150-mobile {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-150-tablet {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-150-tablet-only {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-150-touch {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-150-desktop {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-150-desktop-only {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-150-widescreen {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-150-widescreen-only {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-150-fullhd {
+    min-height: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-200-mobile {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-200-tablet {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-200-tablet-only {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-200-touch {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-200-desktop {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-200-desktop-only {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-200-widescreen {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-200-widescreen-only {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-200-fullhd {
+    max-width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-200-mobile {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-200-tablet {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-200-tablet-only {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-200-touch {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-200-desktop {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-200-desktop-only {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-200-widescreen {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-200-widescreen-only {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-200-fullhd {
+    min-width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-200-mobile {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-200-tablet {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-200-tablet-only {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-200-touch {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-200-desktop {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-200-desktop-only {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-200-widescreen {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-200-widescreen-only {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-200-fullhd {
+    max-height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-200-mobile {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-200-tablet {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-200-tablet-only {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-200-touch {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-200-desktop {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-200-desktop-only {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-200-widescreen {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-200-widescreen-only {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-200-fullhd {
+    min-height: 200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-250-mobile {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-250-tablet {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-250-tablet-only {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-250-touch {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-250-desktop {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-250-desktop-only {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-250-widescreen {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-250-widescreen-only {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-250-fullhd {
+    max-width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-250-mobile {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-250-tablet {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-250-tablet-only {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-250-touch {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-250-desktop {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-250-desktop-only {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-250-widescreen {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-250-widescreen-only {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-250-fullhd {
+    min-width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-250-mobile {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-250-tablet {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-250-tablet-only {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-250-touch {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-250-desktop {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-250-desktop-only {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-250-widescreen {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-250-widescreen-only {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-250-fullhd {
+    max-height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-250-mobile {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-250-tablet {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-250-tablet-only {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-250-touch {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-250-desktop {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-250-desktop-only {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-250-widescreen {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-250-widescreen-only {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-250-fullhd {
+    min-height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-300-mobile {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-300-tablet {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-300-tablet-only {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-300-touch {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-300-desktop {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-300-desktop-only {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-300-widescreen {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-300-widescreen-only {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-300-fullhd {
+    max-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-300-mobile {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-300-tablet {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-300-tablet-only {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-300-touch {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-300-desktop {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-300-desktop-only {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-300-widescreen {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-300-widescreen-only {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-300-fullhd {
+    min-width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-300-mobile {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-300-tablet {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-300-tablet-only {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-300-touch {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-300-desktop {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-300-desktop-only {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-300-widescreen {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-300-widescreen-only {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-300-fullhd {
+    max-height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-300-mobile {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-300-tablet {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-300-tablet-only {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-300-touch {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-300-desktop {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-300-desktop-only {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-300-widescreen {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-300-widescreen-only {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-300-fullhd {
+    min-height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-width-350-mobile {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-width-350-tablet {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-width-350-tablet-only {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-width-350-touch {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-width-350-desktop {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-width-350-desktop-only {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-width-350-widescreen {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-width-350-widescreen-only {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-width-350-fullhd {
+    max-width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-width-350-mobile {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-width-350-tablet {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-width-350-tablet-only {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-width-350-touch {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-width-350-desktop {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-width-350-desktop-only {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-width-350-widescreen {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-width-350-widescreen-only {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-width-350-fullhd {
+    min-width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-max-height-350-mobile {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-max-height-350-tablet {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-max-height-350-tablet-only {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-max-height-350-touch {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-max-height-350-desktop {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-max-height-350-desktop-only {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-max-height-350-widescreen {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-max-height-350-widescreen-only {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-max-height-350-fullhd {
+    max-height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-min-height-350-mobile {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-min-height-350-tablet {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-min-height-350-tablet-only {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-min-height-350-touch {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-min-height-350-desktop {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-min-height-350-desktop-only {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-min-height-350-widescreen {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-min-height-350-widescreen-only {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-min-height-350-fullhd {
+    min-height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .is-full-height-mobile {
+    height: 100% !important;
+  }
+  .has-page-height-mobile {
+    height: 100vh !important;
+  }
+  .is-half-height-mobile {
+    height: 50% !important;
+  }
+  .has-half-page-height-mobile {
+    height: 50vh !important;
+  }
+  .is-quarter-height-mobile {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-mobile {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .is-full-height-tablet {
+    height: 100% !important;
+  }
+  .has-page-height-tablet {
+    height: 100vh !important;
+  }
+  .is-half-height-tablet {
+    height: 50% !important;
+  }
+  .has-half-page-height-tablet {
+    height: 50vh !important;
+  }
+  .is-quarter-height-tablet {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-tablet {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .is-full-height-tablet-only {
+    height: 100% !important;
+  }
+  .has-page-height-tablet-only {
+    height: 100vh !important;
+  }
+  .is-half-height-tablet-only {
+    height: 50% !important;
+  }
+  .has-half-page-height-tablet-only {
+    height: 50vh !important;
+  }
+  .is-quarter-height-tablet-only {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-tablet-only {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .is-full-height-touch {
+    height: 100% !important;
+  }
+  .has-page-height-touch {
+    height: 100vh !important;
+  }
+  .is-half-height-touch {
+    height: 50% !important;
+  }
+  .has-half-page-height-touch {
+    height: 50vh !important;
+  }
+  .is-quarter-height-touch {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-touch {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .is-full-height-desktop {
+    height: 100% !important;
+  }
+  .has-page-height-desktop {
+    height: 100vh !important;
+  }
+  .is-half-height-desktop {
+    height: 50% !important;
+  }
+  .has-half-page-height-desktop {
+    height: 50vh !important;
+  }
+  .is-quarter-height-desktop {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-desktop {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .is-full-height-desktop-only {
+    height: 100% !important;
+  }
+  .has-page-height-desktop-only {
+    height: 100vh !important;
+  }
+  .is-half-height-desktop-only {
+    height: 50% !important;
+  }
+  .has-half-page-height-desktop-only {
+    height: 50vh !important;
+  }
+  .is-quarter-height-desktop-only {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-desktop-only {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .is-full-height-widescreen {
+    height: 100% !important;
+  }
+  .has-page-height-widescreen {
+    height: 100vh !important;
+  }
+  .is-half-height-widescreen {
+    height: 50% !important;
+  }
+  .has-half-page-height-widescreen {
+    height: 50vh !important;
+  }
+  .is-quarter-height-widescreen {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-widescreen {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .is-full-height-widescreen-only {
+    height: 100% !important;
+  }
+  .has-page-height-widescreen-only {
+    height: 100vh !important;
+  }
+  .is-half-height-widescreen-only {
+    height: 50% !important;
+  }
+  .has-half-page-height-widescreen-only {
+    height: 50vh !important;
+  }
+  .is-quarter-height-widescreen-only {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-widescreen-only {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .is-full-height-fullhd {
+    height: 100% !important;
+  }
+  .has-page-height-fullhd {
+    height: 100vh !important;
+  }
+  .is-half-height-fullhd {
+    height: 50% !important;
+  }
+  .has-half-page-height-fullhd {
+    height: 50vh !important;
+  }
+  .is-quarter-height-fullhd {
+    height: 25% !important;
+  }
+  .has-quarter-page-height-fullhd {
+    height: 25vh !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .is-full-width-mobile {
+    width: 100% !important;
+  }
+  .has-page-width-mobile {
+    width: 100vw !important;
+  }
+  .is-half-width-mobile {
+    width: 50% !important;
+  }
+  .has-half-page-width-mobile {
+    width: 50vw !important;
+  }
+  .is-quarter-width-mobile {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-mobile {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .is-full-width-tablet {
+    width: 100% !important;
+  }
+  .has-page-width-tablet {
+    width: 100vw !important;
+  }
+  .is-half-width-tablet {
+    width: 50% !important;
+  }
+  .has-half-page-width-tablet {
+    width: 50vw !important;
+  }
+  .is-quarter-width-tablet {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-tablet {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .is-full-width-tablet-only {
+    width: 100% !important;
+  }
+  .has-page-width-tablet-only {
+    width: 100vw !important;
+  }
+  .is-half-width-tablet-only {
+    width: 50% !important;
+  }
+  .has-half-page-width-tablet-only {
+    width: 50vw !important;
+  }
+  .is-quarter-width-tablet-only {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-tablet-only {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .is-full-width-touch {
+    width: 100% !important;
+  }
+  .has-page-width-touch {
+    width: 100vw !important;
+  }
+  .is-half-width-touch {
+    width: 50% !important;
+  }
+  .has-half-page-width-touch {
+    width: 50vw !important;
+  }
+  .is-quarter-width-touch {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-touch {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .is-full-width-desktop {
+    width: 100% !important;
+  }
+  .has-page-width-desktop {
+    width: 100vw !important;
+  }
+  .is-half-width-desktop {
+    width: 50% !important;
+  }
+  .has-half-page-width-desktop {
+    width: 50vw !important;
+  }
+  .is-quarter-width-desktop {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-desktop {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .is-full-width-desktop-only {
+    width: 100% !important;
+  }
+  .has-page-width-desktop-only {
+    width: 100vw !important;
+  }
+  .is-half-width-desktop-only {
+    width: 50% !important;
+  }
+  .has-half-page-width-desktop-only {
+    width: 50vw !important;
+  }
+  .is-quarter-width-desktop-only {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-desktop-only {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .is-full-width-widescreen {
+    width: 100% !important;
+  }
+  .has-page-width-widescreen {
+    width: 100vw !important;
+  }
+  .is-half-width-widescreen {
+    width: 50% !important;
+  }
+  .has-half-page-width-widescreen {
+    width: 50vw !important;
+  }
+  .is-quarter-width-widescreen {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-widescreen {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .is-full-width-widescreen-only {
+    width: 100% !important;
+  }
+  .has-page-width-widescreen-only {
+    width: 100vw !important;
+  }
+  .is-half-width-widescreen-only {
+    width: 50% !important;
+  }
+  .has-half-page-width-widescreen-only {
+    width: 50vw !important;
+  }
+  .is-quarter-width-widescreen-only {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-widescreen-only {
+    width: 25vw !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .is-full-width-fullhd {
+    width: 100% !important;
+  }
+  .has-page-width-fullhd {
+    width: 100vw !important;
+  }
+  .is-half-width-fullhd {
+    width: 50% !important;
+  }
+  .has-half-page-width-fullhd {
+    width: 50vw !important;
+  }
+  .is-quarter-width-fullhd {
+    width: 25% !important;
+  }
+  .has-quarter-page-width-fullhd {
+    width: 25vw !important;
+  }
+}
+
+.spacing {
+  margin: 1px;
+}
 /*# sourceMappingURL=bulma-helpers.css.map */

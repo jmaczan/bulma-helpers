@@ -1,8 +1,21 @@
 @charset "utf-8"
 
+@import "../variables/_all"
+@import "../mixins/_all"
+
 @import "border/_all"
 @import "cursor/_all"
 @import "flex/_all"
 @import "misc/_all"
 @import "sizing/_all"
 @import "spacing/_all"
+
+// set to false if you don't want to include media queries for sizing and spacing, such as has-padding-top-5-mobile
+$enable-media-queries: true !default
+$enable-spacing-media-queries: true !default
+$enable-sizing-media-queries: true !default
+$enable-sizing-width-height-media-queries: true !default
+$enable-sizing-max-min-width-height-media-queries: true !default
+$enable-sizing-misc-media-queries: true !default
+
+@import "media-queries/_all"
