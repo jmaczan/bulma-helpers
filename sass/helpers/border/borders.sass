@@ -1,5 +1,11 @@
 .is-borderless
-  border: 0px !important
+  border: 0 !important
+
+table.is-completely-borderless
+  td, 
+  th,
+  tr
+    border: 0 !important
 
 $sides: (top, bottom, left, right)
 @each $side in $sides

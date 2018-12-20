@@ -515,6 +515,12 @@ full (100vw/vh), half (50vw/vh), quarter (25vw/vh)
 .is-borderless
 ```
 
+##### Completely borderless
+Makes cascade of borderless (applies lack of border to all tr, td and th in the table).
+```scss
+.is-completely-borderless
+```
+
 ##### Border width
 ```scss
 .has-border-width-3

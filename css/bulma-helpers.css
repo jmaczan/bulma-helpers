@@ -1,5 +1,11 @@
 .is-borderless {
-  border: 0px !important;
+  border: 0 !important;
+}
+
+table.is-completely-borderless td,
+table.is-completely-borderless th,
+table.is-completely-borderless tr {
+  border: 0 !important;
 }
 
 .is-top-borderless {
