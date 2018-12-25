@@ -8,34 +8,8 @@
       $current: $range-start
       @while $current < $range-end
         @each $dimension in 'width' 'height'
-          +mobile
-            .has-#{$dimension}-#{$current}-mobile
-              #{$dimension}: #{$current}px !important
-          +tablet
-            .has-#{$dimension}-#{$current}-tablet
-              #{$dimension}: #{$current}px !important
-          +tablet-only
-            .has-#{$dimension}-#{$current}-tablet-only
-              #{$dimension}: #{$current}px !important
-          +touch
-            .has-#{$dimension}-#{$current}-touch
-              #{$dimension}: #{$current}px !important
-          +desktop
-            .has-#{$dimension}-#{$current}-desktop
-              #{$dimension}: #{$current}px !important
-          +desktop-only
-            .has-#{$dimension}-#{$current}-desktop-only
-              #{$dimension}: #{$current}px !important
-          +widescreen
-            .has-#{$dimension}-#{$current}-widescreen
-              #{$dimension}: #{$current}px !important
-          +widescreen-only
-            .has-#{$dimension}-#{$current}-widescreen-only
-              #{$dimension}: #{$current}px !important
-          +fullhd
-            .has-#{$dimension}-#{$current}-fullhd
-              #{$dimension}: #{$current}px !important
-
+          +mq('has-#{$dimension}-#{$current}')
+            #{$dimension}: #{$current}px !important
         $current: $current + $interval
     
     @if $enable-sizing-max-min-width-height-media-queries
@@ -47,33 +21,8 @@
       @while $current < $range-end
         @each $dimension in 'width' 'height'
           @each $modifier in 'max' 'min'
-            +mobile
-              .has-#{$modifier}-#{$dimension}-#{$current}-mobile
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +tablet
-              .has-#{$modifier}-#{$dimension}-#{$current}-tablet
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +tablet-only
-              .has-#{$modifier}-#{$dimension}-#{$current}-tablet-only
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +touch
-              .has-#{$modifier}-#{$dimension}-#{$current}-touch
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +desktop
-              .has-#{$modifier}-#{$dimension}-#{$current}-desktop
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +desktop-only
-              .has-#{$modifier}-#{$dimension}-#{$current}-desktop-only
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +widescreen
-              .has-#{$modifier}-#{$dimension}-#{$current}-widescreen
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +widescreen-only
-              .has-#{$modifier}-#{$dimension}-#{$current}-widescreen-only
-                #{$modifier}-#{$dimension}: #{$current}px !important
-            +fullhd
-              .has-#{$modifier}-#{$dimension}-#{$current}-fullhd
-                #{$modifier}-#{$dimension}: #{$current}px !important
+            +mq('has-#{$modifier}-#{$dimension}-#{$current}')
+               #{$modifier}-#{$dimension}: #{$current}px !important
               
         $current: $current + $interval
     

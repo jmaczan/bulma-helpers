@@ -163,7 +163,7 @@ Internet Explorer (10+) is only partially supported.
 
 ## Customization
 
-All modules are toggled on and all variables have some values by default. You can customize these values by assigning your values to variables, defined in the library. **All available variables you can find in corresponding files in `variables` directory.**
+All modules are toggled on and all variables have some values by default. You can customize these values by assigning your values to variables, defined in the library. **All available variables you can find in corresponding files in `variables` directory.** Toggling off media queries (variables for this you can find in `sass/helpers/variables/media-queries.sass`, for example `$enable-flex-media-queries`) will decrease size of the library dramatically.
 
 ### Customizing ranges of generated classes
 
@@ -411,6 +411,17 @@ In the same way as above for margin.
 
 ##### Default available spacing values
 (5, 10, 15, ..., 150)
+
+### Flex
+For all flex classes you can do all the responsive things. For example:
+
+```scss
+.flex-mobile
+```
+
+```scss
+.justify-center-desktop
+```
 
 ### Sizing
 

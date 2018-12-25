@@ -1,17 +1,10 @@
-.flex
-  %flex
-    display: -webkit-box
-    display: -moz-box
-    display: -ms-flexbox
-    display: -webkit-flex
-    display: flex
-  
+.flex 
   &-row
-    @extend %flex
+    +pure-flex
     flex-direction: row !important
 
   &-column
-    @extend %flex
+    +pure-flex
     flex-direction: column !important
 
 .nowrap
