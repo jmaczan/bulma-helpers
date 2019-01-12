@@ -27,3 +27,10 @@ $current: $range-start
   
   .is-#{$side}-paddingless
     padding-#{$side}: 0 !important
+
+@each $side in (left, right)
+  has-margin-#{$side}-auto
+    margin-#{$side}: auto !important
+
+  .has-margin-#{$side}-auto
+    margin-#{$side}: auto !important
