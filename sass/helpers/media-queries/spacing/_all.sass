@@ -148,3 +148,32 @@
           margin-#{$side}: 0 !important
         .is-#{$side}-paddingless-fullhd
           padding-#{$side}: 0 !important
+    
+    @each $side in (left, right)
+      +mobile
+        .has-margin-#{$side}-auto-mobile
+          margin-#{$side}: auto !important
+      +tablet
+        .has-margin-#{$side}-auto-tablet
+          margin-#{$side}: auto !important
+      +tablet-only
+        .has-margin-#{$side}-auto-tablet-only
+          margin-#{$side}: auto !important
+      +touch
+        .has-margin-#{$side}-auto-touch
+          margin-#{$side}: auto !important
+      +desktop
+        .has-margin-#{$side}-auto-desktop
+          margin-#{$side}: auto !important
+      +desktop-only
+        .has-margin-#{$side}-auto-desktop-only
+          margin-#{$side}: auto !important
+      +widescreen
+        .has-margin-#{$side}-auto-widescreen
+          margin-#{$side}: auto !important
+      +widescreen-only
+        .has-margin-#{$side}-auto-widescreen-only
+          margin-#{$side}: auto !important
+      +fullhd
+        .has-margin-#{$side}-auto-fullhd
+          margin-#{$side}: auto !important
