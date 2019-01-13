@@ -1818,6 +1818,26 @@ table.is-completely-borderless tr {
   padding-right: 0 !important;
 }
 
+.has-margin-auto {
+  margin: auto !important;
+}
+
+.has-margin-top-auto {
+  margin-top: auto !important;
+}
+
+.has-margin-bottom-auto {
+  margin-bottom: auto !important;
+}
+
+.has-margin-left-auto {
+  margin-left: auto !important;
+}
+
+.has-margin-right-auto {
+  margin-right: auto !important;
+}
+
 @media screen and (max-width: 768px) {
   .flex-mobile {
     display: flex;
@@ -18762,6 +18782,114 @@ table.is-completely-borderless tr {
   }
   .is-right-paddingless-fullhd {
     padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-margin-left-auto-mobile {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-margin-left-auto-tablet {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-margin-left-auto-tablet-only {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-margin-left-auto-touch {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-margin-left-auto-desktop {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-margin-left-auto-desktop-only {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-margin-left-auto-widescreen {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-margin-left-auto-widescreen-only {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-margin-left-auto-fullhd {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .has-margin-right-auto-mobile {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .has-margin-right-auto-tablet {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .has-margin-right-auto-tablet-only {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .has-margin-right-auto-touch {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  .has-margin-right-auto-desktop {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .has-margin-right-auto-desktop-only {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .has-margin-right-auto-widescreen {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .has-margin-right-auto-widescreen-only {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1472px) {
+  .has-margin-right-auto-fullhd {
+    margin-right: auto !important;
   }
 }
 /*# sourceMappingURL=bulma-helpers.css.map */
