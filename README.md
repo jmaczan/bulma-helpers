@@ -578,6 +578,7 @@ cursor: pointer !important
 5. crosshair 
 6. not-allowed 
 7. zoom-in
+8. default
 
 ### Misc
 
