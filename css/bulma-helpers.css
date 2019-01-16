@@ -208,9 +208,33 @@ table.is-completely-borderless tr {
   cursor: default !important;
 }
 
-.has-cursor-pointer grab help wait crosshair not-allowed zoom-in {
-  cursor: pointer -webkit-grab help wait crosshair not-allowed zoom-in !important;
-  cursor: pointer grab help wait crosshair not-allowed zoom-in !important;
+.has-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.has-cursor-grab {
+  cursor: -webkit-grab !important;
+  cursor: grab !important;
+}
+
+.has-cursor-help {
+  cursor: help !important;
+}
+
+.has-cursor-wait {
+  cursor: wait !important;
+}
+
+.has-cursor-crosshair {
+  cursor: crosshair !important;
+}
+
+.has-cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+.has-cursor-zoom-in {
+  cursor: zoom-in !important;
 }
 
 .flex-row {
