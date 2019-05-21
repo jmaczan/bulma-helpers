@@ -22,7 +22,7 @@
         @each $dimension in 'width' 'height'
           @each $modifier in 'max' 'min'
             +mq('has-#{$modifier}-#{$dimension}-#{$current}')
-               #{$modifier}-#{$dimension}: #{$current}px !important
+              #{$modifier}-#{$dimension}: #{$current}px !important
               
         $current: $current + $interval
     
