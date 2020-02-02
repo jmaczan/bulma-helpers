@@ -15,11 +15,13 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
   * [CSS only](#css-only)
   * [Browser Support](#browser-support)
   * [Customization](#customization)
+    + [Instruction](#instruction)
     + [Customizing ranges of generated classes](#customizing-ranges-of-generated-classes)
     + [Customizing media queries](#customizing-media-queries)
     + [Customizing breakpoints](#customizing-breakpoints)
     + [Choosing modules](#choosing-modules)
   * [Documentation](#documentation)
+    + [All customization variables](#all-customization-variables)
     + [Spacing](#spacing)
       - [Margin](#margin)
         * [Margin](#margin-1)
@@ -57,6 +59,7 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
         * [Padding for one side](#padding-for-one-side-1)
         * [All available sides](#all-available-sides-3)
         * [Default available spacing values](#default-available-spacing-values-3)
+    + [Flex](#flex)
     + [Sizing](#sizing-1)
         * [Width](#width-1)
         * [Height](#height-1)
@@ -71,7 +74,7 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
       - [Full page width / height](#full-page-width---height-1)
         * [Full page width](#full-page-width-1)
         * [Default available sizing values](#default-available-sizing-values-7)
-    + [Flex](#flex)
+    + [Flex](#flex-1)
         * [Row](#row)
         * [Column](#column)
         * [Align content start](#align-content-start)
@@ -81,6 +84,7 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
         * [Nowrap](#nowrap)
     + [Border](#border)
         * [Borderless](#borderless)
+        * [Completely borderless](#completely-borderless)
         * [Border width](#border-width)
         * [Border width for one side](#border-width-for-one-side)
         * [All available sides](#all-available-sides-4)
@@ -165,6 +169,24 @@ Internet Explorer (10+) is only partially supported.
 
 All modules are toggled on and all variables have some values by default. You can customize these values by assigning your values to variables, defined in the library. **All available variables you can find in corresponding files in `variables` directory.** Toggling off media queries (variables for this you can find in `sass/helpers/variables/media-queries.sass`, for example `$enable-flex-media-queries`) will decrease size of the library dramatically.
 
+### Instruction
+
+1. Make sure you have `node-sass` installed. If not, install it. (`npm install node-sass --save-dev`)
+2. Create script for compiliting `SCSS` to `CSS`, i.e. `"customize-css": "node-sass --omit-source-map-url ./src/scss/bulma-helpers-customization.scss ./src/css/bulma-helpers-customization.css"`. Add this script to `scripts` section in `package.json`. As you can see in script, our file in which we will customize `bulma-helpers` is called `bulma-helpers-customization.scss`. The result `CSS` output will be in `bulma-helpers-customization.css` (notice the different extension of file).
+3. Create `SCSS` file in which you will customize `bulma-helpers` variables (i.e. `scss/bulma-helpers-customization.scss`)
+4. Define variables which you want to override, before importing `bulma-helpers` in created file.
+
+Example content of file with customization:
+```scss
+@charset "utf-8";
+$sizing-range-start: 1;
+$sizing-range-end: 666;
+$sizing-interval: 6;
+@import "../../node_modules/bulma-helpers/bulma-helpers.sass";
+```
+5. Run compiling script to build new `css` file, i.e. `npm run customize-css`
+6. Import result file (in this example - `bulma-helpers-customization.css`) in your scss file, i.e. `@import "css/bulma-helpers-customization.css";`
+
 ### Customizing ranges of generated classes
 
 For all generated classes (such as `has-margin-bottom-*`, where `*` is value from given range) there is a simple way to change range and interval of generated classes. You can change the following variables in corresponding sass files. All variables follow the same pattern, shown below.
@@ -214,7 +236,71 @@ $tablet: 800px
 By default, all modules are included in result build. Even so, you can decide on your own which modules do you want to use in your project.
 To achieve this, you have to remove unwanted sass modules imports from main `_all.sass` files in helpers directory or remove single file imports from `_all.sass` in corresponding modules directories.
 
+
 ## Documentation
+
+### All customization variables
+```scss
+// --- MEDIA QUERIES
+// ALL
+$enable-media-queries: true !default // set to false if you don't want to include media queries at all
+
+// spacing - MARGIN / PADDING
+$enable-spacing-media-queries: true !default // set to false if you don't want to include ALL MARGIN / PADDING media queries
+
+// sizing - WIDTH / HEIGHT
+$enable-sizing-media-queries: true !default // set to false if you don't want to include ALL WIDTH / HEIGHT media queries
+$enable-sizing-width-height-media-queries: true !default // set to false if you don't want to include WIDTH / HEIGHT
+$enable-sizing-max-min-width-height-media-queries: true !default // set to false if you don't want to include MAX-WIDTH / MAX-HEIGHT / MIN-WIDTH / MIN-HEIGHT
+$enable-sizing-misc-media-queries: true !default // set to false if you don't want to include OTHERS
+
+// flex
+$enable-flex-media-queries: true !default // set to false if you don't want to include FLEXBOX media queries
+$enable-flex-core-media-queries: true !default // set to false if you don't want to include FLEXBOX CORE
+$enable-flex-align-self-items-media-queries: true !default // set to false if you don't want to include ALIGN-SELF / ALIGN-ITEMS
+$enable-flex-align-justify-media-queries: true !default // set to false if you don't want to include ALIGN-CONTENT / JUSTIFY-CONTENT
+
+// --- BREAKPOINTS - Defualt values of responsiveness breakpoints. They are equal to Bulma v0.7.2 breakpoints.
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 64px !default
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default
+// 960px container + 4rem
+$desktop: 960px + (2 * $gap) !default
+// 1152px container + 4rem
+$widescreen: 1152px + (2 * $gap) !default
+$widescreen-enabled: true !default
+// 1344px container + 4rem
+$fullhd: 1344px + (2 * $gap) !default
+$fullhd-enabled: true !default
+
+// --- WIDTH / HEIGHT
+$sizing-range-start: 50 !default // from this value WIDTH / HEIGHT classes will be generated (i.e. has-width-50)
+$sizing-range-end: 400 !default // to this value will be generated WIDTH / HEIGHT classes (i.e. has-height-400)
+$sizing-interval: 50 !default // this will be gap between previous and next class (i.e. has-width-50, has-width-100, has-width-150 and so on)
+
+$sizing-max-min-width-height-range-start: $sizing-range-start !default // from this value MAX / MIN WIDTH / HEIGHT classes will be generated (i.e. has-max-width-50)
+$sizing-max-min-width-height-range-end: $sizing-range-end !default // to this value will be generated WIDTH / HEIGHT classes (i.e. has-min-height-400)
+$sizing-max-min-width-height-interval: $sizing-interval !default // this will be gap between previous and next class (i.e. has-min-width-50, has-min-width-100, has-min-width-150 and so on)
+
+$mq-sizing-range-start: $sizing-range-start !default // from this value WIDTH / HEIGHT classes will be generated for media queries (i.e. .has-width-50-mobile)
+$mq-sizing-range-end: $sizing-range-end !default // to this value will be generated WIDTH / HEIGHT classes (i.e. has-height-400-tablet)
+$mq-sizing-interval: $sizing-interval !default // this will be gap between previous and next class (i.e. has-width-50-mobile, has-width-100-mobile, has-width-150-mobile and so on)
+
+$mq-sizing-max-min-width-height-range-start: $sizing-max-min-width-height-range-start !default // from this value MAX / MIN WIDTH / HEIGHT classes will be generated for media queries (i.e. has-max-width-50-tablet)
+$mq-sizing-max-min-width-height-range-end: $sizing-max-min-width-height-range-end !default  // to this value will be generated WIDTH / HEIGHT classes (i.e. has-min-height-400-fullhd)
+$mq-sizing-max-min-width-height-interval: $sizing-max-min-width-height-interval !default  // this will be gap between previous and next class (i.e. has-min-width-50-fullhd, has-min-width-50-fullhd, has-min-width-50-fullhd and so on)
+
+// --- MARGIN / PADDING
+$spacing-range-start: 5 !default // from this value MARGIN / PADDING classes will be generated (i.e. has-margin-5)
+$spacing-range-end: 150 !default // to this value will be generated MARGIN / PADDING classes (i.e. has-padding-150)
+$spacing-interval: 5 !default // this will be gap between previous and next class (i.e. has-padding-5, has-padding-10, has-padding-15 and so on)
+
+$mq-spacing-range-start: $spacing-range-start !default // from this value MARGIN / PADDING classes will be generated for media queries (i.e. .has-margin-5-mobile)
+$mq-spacing-range-end: $spacing-range-end !default // to this value will be generated MARGIN / PADDING classes (i.e. has-padding-150-tablet)
+$mq-spacing-interval: $spacing-interval !default // this will be gap between previous and next class (i.e. has-padding-5-mobile, has-padding-10-mobile, has-padding-15-mobile and so on)
+
+```
 
 All values are represented by pixels, so e.g. `has-max-width-50` class means that this element's maximal width is 50px.
 
