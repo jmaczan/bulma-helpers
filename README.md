@@ -225,11 +225,21 @@ $enable-sizing-max-min-width-height-media-queries: true !default
 
 ### Customizing breakpoints
 
-Breakpoints are same as default breapoints in Bulma. If you want to change them, then just override the same breakpoint variables as in Bulma, for example:
+Breakpoints are same as default breakpoints in Bulma. If you want to change them, then just override the same breakpoint variables as in Bulma, for example:
 
 ```scss
 $tablet: 800px
 ```
+
+### Customizing spacing units
+
+Units for the spacing and media query spacing helpers are using pixels by default. If you want to generate classes for additional units (such as rem or em), override the list of unit variables, which allows for a single unit or list of units. For example:
+
+```scss
+$additional-spacing-units: 'rem' 'em'
+```
+
+Generated spacing and media query classes for the above configuration will result in new spacing classes appended with `-rem` or `-em`. For example, `has-margin-5-rem` and `has-margin-5-em`.
 
 ### Choosing modules
 
@@ -260,7 +270,7 @@ $enable-flex-core-media-queries: true !default // set to false if you don't want
 $enable-flex-align-self-items-media-queries: true !default // set to false if you don't want to include ALIGN-SELF / ALIGN-ITEMS
 $enable-flex-align-justify-media-queries: true !default // set to false if you don't want to include ALIGN-CONTENT / JUSTIFY-CONTENT
 
-// --- BREAKPOINTS - Defualt values of responsiveness breakpoints. They are equal to Bulma v0.7.2 breakpoints.
+// --- BREAKPOINTS - Default values of responsiveness breakpoints. They are equal to Bulma v0.7.2 breakpoints.
 // The container horizontal gap, which acts as the offset for breakpoints
 $gap: 64px !default
 // 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
@@ -299,10 +309,11 @@ $spacing-interval: 5 !default // this will be gap between previous and next clas
 $mq-spacing-range-start: $spacing-range-start !default // from this value MARGIN / PADDING classes will be generated for media queries (i.e. .has-margin-5-mobile)
 $mq-spacing-range-end: $spacing-range-end !default // to this value will be generated MARGIN / PADDING classes (i.e. has-padding-150-tablet)
 $mq-spacing-interval: $spacing-interval !default // this will be gap between previous and next class (i.e. has-padding-5-mobile, has-padding-10-mobile, has-padding-15-mobile and so on)
+$additional-spacing-units: () !default // this can be configured with additional unit type(s) to use for the spacing and media query spacing helpers
 
 ```
 
-All values are represented by pixels, so e.g. `has-max-width-50` class means that this element's maximal width is 50px.
+All values are represented by pixels with the exception for the spacing helpers, which allows for configuration of additional units, so e.g. `has-max-width-50` class means that this element's maximal width is 50px.
 
 ### Spacing
 

@@ -3,6 +3,7 @@ $range-start: $spacing-range-start
 $range-end: $spacing-range-end
 $interval: $spacing-interval
 $sides: (top, bottom, left, right)
+$additional-units: $additional-spacing-units
 
 $current: $range-start
 @while $current < $range-end
@@ -12,12 +13,26 @@ $current: $range-start
   .has-padding-#{$current}
     padding: #{$current}px !important
 
+  @each $unit in $additional-units
+    .has-margin-#{$current}-#{$unit}
+      margin: #{$current + $unit} !important
+
+    .has-padding-#{$current}-#{$unit}
+      padding: #{$current + $unit}  !important
+
   @each $side in $sides
     .has-margin-#{$side}-#{$current}
       margin-#{$side}: #{$current}px !important
     
     .has-padding-#{$side}-#{$current}
       padding-#{$side}: #{$current}px !important
+
+    @each $unit in $additional-units
+      .has-margin-#{$current}-#{$unit}
+        margin: #{$current + $unit} !important
+
+      .has-padding-#{$current}-#{$unit}
+        padding: #{$current + $unit}  !important
   
   $current: $current + $interval
 
