@@ -28,11 +28,11 @@ $current: $range-start
       padding-#{$side}: #{$current}px !important
 
     @each $unit in $additional-units
-      .has-margin-#{$current}-#{$unit}
-        margin: #{$current + $unit} !important
+      .has-margin-#{$side}-#{$current}-#{$unit}
+        margin-#{$side}: #{$current + $unit} !important
 
-      .has-padding-#{$current}-#{$unit}
-        padding: #{$current + $unit}  !important
+      .has-padding-#{$side}-#{$current}-#{$unit}
+        padding-#{side}: #{$current + $unit}  !important
   
   $current: $current + $interval
 
