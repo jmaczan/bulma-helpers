@@ -10,9 +10,9 @@
     @while $current < $range-end
       +mobile
         .has-margin-#{$current}-mobile
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-mobile
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-mobile
             margin: #{$current + $unit} !important
@@ -20,9 +20,9 @@
             padding: #{$current + $unit}  !important
       +tablet
         .has-margin-#{$current}-tablet
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-tablet
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-tablet
             margin: #{$current + $unit} !important
@@ -30,9 +30,9 @@
             padding: #{$current + $unit}  !important
       +tablet-only
         .has-margin-#{$current}-tablet-only
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-tablet-only
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-tablet-only
             margin: #{$current + $unit} !important
@@ -40,9 +40,9 @@
             padding: #{$current + $unit}  !important
       +touch
         .has-margin-#{$current}-touch
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-touch
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-touch
             margin: #{$current + $unit} !important
@@ -50,9 +50,9 @@
             padding: #{$current + $unit}  !important
       +desktop
         .has-margin-#{$current}-desktop
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-desktop
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-desktop
             margin: #{$current + $unit} !important
@@ -60,9 +60,9 @@
             padding: #{$current + $unit}  !important
       +desktop-only
         .has-margin-#{$current}-desktop-only
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-desktop-only
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-desktop-only
             margin: #{$current + $unit} !important
@@ -70,9 +70,9 @@
             padding: #{$current + $unit}  !important
       +widescreen
         .has-margin-#{$current}-widescreen
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-widescreen
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-widescreen
             margin: #{$current + $unit} !important
@@ -80,9 +80,9 @@
             padding: #{$current + $unit}  !important
       +widescreen-only
         .has-margin-#{$current}-widescreen-only
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-widescreen-only
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-widescreen-only
             margin: #{$current + $unit} !important
@@ -90,9 +90,9 @@
             padding: #{$current + $unit}  !important
       +fullhd
         .has-margin-#{$current}-fullhd
-          margin: #{$current}px !important
+          margin: #{$current}#{$default-unit} !important
         .has-padding-#{$current}-fullhd
-          padding: #{$current}px !important
+          padding: #{$current}#{$default-unit} !important
         @each $unit in $additional-units
           .has-margin-#{$current}-#{$unit}-fullhd
             margin: #{$current + $unit} !important
@@ -102,9 +102,9 @@
       @each $side in $sides
         +mobile
           .has-margin-#{$side}-#{$current}-mobile
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-mobile
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-mobile
               margin: #{$current + $unit} !important
@@ -112,9 +112,9 @@
               padding: #{$current + $unit}  !important
         +tablet
           .has-margin-#{$side}-#{$current}-tablet
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-tablet
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-tablet
               margin: #{$current + $unit} !important
@@ -122,9 +122,9 @@
               padding: #{$current + $unit}  !important
         +tablet-only
           .has-margin-#{$side}-#{$current}-tablet-only
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-tablet-only
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-tablet-only
               margin: #{$current + $unit} !important
@@ -132,9 +132,9 @@
               padding: #{$current + $unit}  !important
         +touch
           .has-margin-#{$side}-#{$current}-touch
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-touch
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-touch
               margin: #{$current + $unit} !important
@@ -142,9 +142,9 @@
               padding: #{$current + $unit}  !important
         +desktop
           .has-margin-#{$side}-#{$current}-desktop
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-desktop
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-desktop
               margin: #{$current + $unit} !important
@@ -152,9 +152,9 @@
               padding: #{$current + $unit}  !important
         +desktop-only
           .has-margin-#{$side}-#{$current}-desktop-only
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-desktop-only
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-desktop-only
               margin: #{$current + $unit} !important
@@ -162,9 +162,9 @@
               padding: #{$current + $unit}  !important
         +widescreen
           .has-margin-#{$side}-#{$current}-widescreen
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-widescreen
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-widescreen
               margin: #{$current + $unit} !important
@@ -172,9 +172,9 @@
               padding: #{$current + $unit}  !important
         +widescreen-only
           .has-margin-#{$side}-#{$current}-widescreen-only
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-widescreen-only
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-widescreen-only
               margin: #{$current + $unit} !important
@@ -182,9 +182,9 @@
               padding: #{$current + $unit}  !important
         +fullhd
           .has-margin-#{$side}-#{$current}-fullhd
-            margin-#{$side}: #{$current}px !important
+            margin-#{$side}: #{$current}#{$default-unit} !important
           .has-padding-#{$side}-#{$current}-fullhd
-            padding-#{$side}: #{$current}px !important
+            padding-#{$side}: #{$current}#{$default-unit} !important
           @each $unit in $additional-units
             .has-margin-#{$side}-#{$current}-#{$unit}-fullhd
               margin: #{$current + $unit} !important

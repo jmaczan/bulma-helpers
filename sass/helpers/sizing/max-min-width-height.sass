@@ -8,6 +8,6 @@ $current: $range-start
   @each $dimension in 'width' 'height'
     @each $modifier in 'max' 'min'
       .has-#{$modifier}-#{$dimension}-#{$current} 
-        #{$modifier}-#{$dimension}: #{$current}px !important
+        #{$modifier}-#{$dimension}: #{$current}#{$default-unit} !important
         
   $current: $current + $interval

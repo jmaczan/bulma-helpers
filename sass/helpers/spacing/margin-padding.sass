@@ -8,10 +8,10 @@ $additional-units: $additional-spacing-units
 $current: $range-start
 @while $current < $range-end
   .has-margin-#{$current}
-    margin: #{$current}px !important
+    margin: #{$current}#{$default-unit} !important
 
   .has-padding-#{$current}
-    padding: #{$current}px !important
+    padding: #{$current}#{$default-unit} !important
 
   @each $unit in $additional-units
     .has-margin-#{$current}-#{$unit}
@@ -22,10 +22,10 @@ $current: $range-start
 
   @each $side in $sides
     .has-margin-#{$side}-#{$current}
-      margin-#{$side}: #{$current}px !important
+      margin-#{$side}: #{$current}#{$default-unit} !important
     
     .has-padding-#{$side}-#{$current}
-      padding-#{$side}: #{$current}px !important
+      padding-#{$side}: #{$current}#{$default-unit} !important
 
     @each $unit in $additional-units
       .has-margin-#{$side}-#{$current}-#{$unit}

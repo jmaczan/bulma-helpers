@@ -9,7 +9,7 @@
       @while $current < $range-end
         @each $dimension in 'width' 'height'
           +mq('has-#{$dimension}-#{$current}')
-            #{$dimension}: #{$current}px !important
+            #{$dimension}: #{$current}#{$default-unit} !important
         $current: $current + $interval
     
     @if $enable-sizing-max-min-width-height-media-queries
@@ -22,7 +22,7 @@
         @each $dimension in 'width' 'height'
           @each $modifier in 'max' 'min'
             +mq('has-#{$modifier}-#{$dimension}-#{$current}')
-              #{$modifier}-#{$dimension}: #{$current}px !important
+              #{$modifier}-#{$dimension}: #{$current}#{$default-unit} !important
               
         $current: $current + $interval
     

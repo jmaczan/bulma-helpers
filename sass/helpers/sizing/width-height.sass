@@ -7,6 +7,6 @@ $current: $range-start
 @while $current < $range-end
   @each $dimension in 'width' 'height'
     .has-#{$dimension}-#{$current} 
-      #{$dimension}: #{$current}px !important
+      #{$dimension}: #{$current}#{$default-unit} !important
 
   $current: $current + $interval

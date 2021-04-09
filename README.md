@@ -187,6 +187,14 @@ $sizing-interval: 6;
 5. Run compiling script to build new `css` file, i.e. `npm run customize-css`
 6. Import result file (in this example - `bulma-helpers-customization.css`) in your scss file, i.e. `@import "css/bulma-helpers-customization.css";`
 
+### Customizing unit
+
+Default unit in code and in this README is `px`, but you can change it to any unit, for example `em` or `rem`. Change will be global for all helpers.
+
+```scss
+$default-unit: 'px' !default
+```
+
 ### Customizing ranges of generated classes
 
 For all generated classes (such as `has-margin-bottom-*`, where `*` is value from given range) there is a simple way to change range and interval of generated classes. You can change the following variables in corresponding sass files. All variables follow the same pattern, shown below.

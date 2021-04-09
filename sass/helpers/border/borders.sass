@@ -10,7 +10,7 @@ table.is-completely-borderless
 $sides: (top, bottom, left, right)
 @each $side in $sides
   .is-#{$side}-borderless
-    border-#{$side}: 0px !important
+    border-#{$side}: 0#{$default-unit} !important
 
 // sizing helpers settings
 $range-start: 1
@@ -20,9 +20,9 @@ $interval: 1
 $current: $range-start
 @while $current < $range-end
   .has-border-width-#{$current}
-    border-width: #{$current}px !important
+    border-width: #{$current}#{$default-unit} !important
   @each $side in $sides
     .has-border-#{$side}-width-#{$current} 
-      border-#{$side}-width: #{$current}px !important
+      border-#{$side}-width: #{$current}#{$default-unit} !important
         
   $current: $current + $interval
