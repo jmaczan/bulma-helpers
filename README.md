@@ -16,6 +16,7 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
   * [Browser Support](#browser-support)
   * [Customization](#customization)
     + [Instruction](#instruction)
+    + [Customizing unit](#customizing-unit)
     + [Customizing ranges of generated classes](#customizing-ranges-of-generated-classes)
     + [Customizing media queries](#customizing-media-queries)
     + [Customizing breakpoints](#customizing-breakpoints)
