@@ -400,8 +400,8 @@ table.is-completely-borderless tr {
 }
 
 .is-blurred {
-  -webkit-filter: blur(15em) !important;
-          filter: blur(15em) !important;
+  -webkit-filter: blur(15px) !important;
+          filter: blur(15px) !important;
 }
 
 .is-blurred-medium {
