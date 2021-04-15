@@ -6,6 +6,7 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
 <img src="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" width="600" height="315" class="center">
 
 - [bulma-helpers](#bulma-helpers)
+  * [No installation (CDN)](#no-installation-cdn)
   * [Quick install](#quick-install)
     + [NPM](#npm)
     + [Yarn](#yarn)
@@ -99,6 +100,20 @@ Library with missing **Functional / Atomic CSS classes for Bulma framework**, wh
         * [Blur hard](#blur-hard)
         * [Default values for blurs](#default-values-for-blurs)
   * [Copyright and license](#copyright-and-license)
+
+## No installation (CDN)
+
+You can use Bulma Helpers without installation directly from cdnjs. Just import file `bulma-helpers.min.css`:
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma-helpers/0.4.0/css/bulma-helpers.min.css" integrity="sha512-U6ELnUi7oqVEjkLmFw5r5UR5LEtvpImS/jUykBKneVhD0lxZxfJZ3k3pe003ktrtNZYungd9u3Urp2X09wKwXg==" crossorigin="anonymous" />
+```
+
+Link to library on cdnjs:
+
+```sh
+https://cdnjs.com/libraries/bulma-helpers
+```
 
 ## Quick install
 
