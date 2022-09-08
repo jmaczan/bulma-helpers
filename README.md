@@ -1,9 +1,10 @@
+<p align="center"><img width="150" src="bulma-helpers.png" alt="bulma-helpers logo"></p>
+
 # bulma-helpers
-Library with missing **Functional / Atomic CSS classes for Bulma framework**, which doesn't require Bulma framework to work! :heart:
+Library with missing **Functional / Atomic CSS classes for Bulma framework**, which doesn't require Bulma framework to work
 
 [![npm](https://img.shields.io/npm/v/bulma-helpers.svg)][npm-link]
 
-<img src="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" width="600" height="315" class="center">
 
 - [bulma-helpers](#bulma-helpers)
   * [No installation (CDN)](#no-installation-cdn)
